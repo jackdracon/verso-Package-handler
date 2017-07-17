@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lights>
+  <obj name="obj1">
+    <pos x="10000" y="100" z="50"></pos>
+    <scale x="253" y="12" z="0"></scale>
+    <rot x="" y="0" z="0" w="0"></rot>
+    <color red="0" green="0" blue="0"></color>
+    <mode>REALTIME</mode>
+    <intensity>1</intensity>
+    <shadow strength="" bias="0" normalbias="1" nearplane="0">NO_SHADOWS</shadow>
+    <draw-halo>false</draw-halo>
+  </obj>
+</lights>

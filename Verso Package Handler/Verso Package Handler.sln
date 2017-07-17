@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verso Package Handler", "Verso Package Handler.csproj", "{CD864338-5763-0097-7A38-FAE45AC75747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verso Package Handler.Editor", "Verso Package Handler.Editor.csproj", "{B991A9AD-B20F-AF26-8B92-9BCC34A6E856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD864338-5763-0097-7A38-FAE45AC75747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD864338-5763-0097-7A38-FAE45AC75747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD864338-5763-0097-7A38-FAE45AC75747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD864338-5763-0097-7A38-FAE45AC75747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B991A9AD-B20F-AF26-8B92-9BCC34A6E856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B991A9AD-B20F-AF26-8B92-9BCC34A6E856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B991A9AD-B20F-AF26-8B92-9BCC34A6E856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B991A9AD-B20F-AF26-8B92-9BCC34A6E856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

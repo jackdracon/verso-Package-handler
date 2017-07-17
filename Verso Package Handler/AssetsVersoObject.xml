@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lights>
+  <obj name="Directional Light">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" w="0" />
+    <scale x="" y="" z="" />
+    <color red="1" green="0.8392157" blue="0.9568627" />
+    <mode>Auto</mode>
+    <intensity>1</intensity>
+    <shadow strength="" bias="" normalbias="" nearplane="">NO_SHADOWS</shadow>
+  </obj>
+</lights>
