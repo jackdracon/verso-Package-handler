@@ -42,9 +42,9 @@ public class DataWriter : Data
             XmlAttribute _objAttribPosX = _docToSave.CreateAttribute("x");
             XmlAttribute _objAttribPosY = _docToSave.CreateAttribute("y");
             XmlAttribute _objAttribPosZ = _docToSave.CreateAttribute("z");
-            _objAttribPosX.Value = "0";
-            _objAttribPosY.Value = "0";
-            _objAttribPosZ.Value = "0";
+            _objAttribPosX.Value = li.transform.position.x.ToString();
+            _objAttribPosY.Value = li.transform.position.y.ToString();
+            _objAttribPosZ.Value = li.transform.position.z.ToString();
 
             _posElement.Attributes.SetNamedItem(_objAttribPosX);
             _posElement.Attributes.SetNamedItem(_objAttribPosY);
@@ -58,10 +58,10 @@ public class DataWriter : Data
             XmlAttribute _objAttribRotY = _docToSave.CreateAttribute("y");
             XmlAttribute _objAttribRotZ = _docToSave.CreateAttribute("z");
             XmlAttribute _objAttribRotW = _docToSave.CreateAttribute("w");
-            _objAttribRotX.Value = "0";
-            _objAttribRotY.Value = "0";
-            _objAttribRotZ.Value = "0";
-            _objAttribRotW.Value = "0";
+            _objAttribRotX.Value = li.transform.rotation.x.ToString();
+            _objAttribRotY.Value = li.transform.rotation.y.ToString();
+            _objAttribRotZ.Value = li.transform.rotation.z.ToString();
+            _objAttribRotW.Value = li.transform.rotation.w.ToString();
 
             _rotElement.Attributes.SetNamedItem(_objAttribRotX);
             _rotElement.Attributes.SetNamedItem(_objAttribRotY);
@@ -75,9 +75,9 @@ public class DataWriter : Data
             XmlAttribute _objAttribScaleX = _docToSave.CreateAttribute("x");
             XmlAttribute _objAttribScaleY = _docToSave.CreateAttribute("y");
             XmlAttribute _objAttribScaleZ = _docToSave.CreateAttribute("z");
-            _objAttribRotX.Value = "0";
-            _objAttribRotY.Value = "0";
-            _objAttribRotZ.Value = "0";
+            _objAttribScaleX.Value = "0";
+            _objAttribScaleY.Value = "0";
+            _objAttribScaleZ.Value = "0";
 
             _scaleElement.Attributes.SetNamedItem(_objAttribScaleX);
             _scaleElement.Attributes.SetNamedItem(_objAttribScaleY);
